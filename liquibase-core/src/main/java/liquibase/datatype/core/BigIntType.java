@@ -47,6 +47,8 @@ public class BigIntType extends LiquibaseDataType {
         if (database instanceof PostgresDatabase) {
             if (isAutoIncrement()) {
                 return new DatabaseDataType("BIGSERIAL");
+            } else {
+                return new DatabaseDataType("BIGINT");
             }
         }
         return super.toDatabaseDataType(database);

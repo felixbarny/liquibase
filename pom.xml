@@ -434,15 +434,10 @@
 
     <distributionManagement>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Sonatype Production Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>archiva.webstage</id>
+            <name>jStage Release Repository</name>
+            <url>https://maven.isys-software.de/archiva/repository/webstage/</url>
         </repository>
-        <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sontatype Snapshot Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
     </distributionManagement>
 
     <profiles>

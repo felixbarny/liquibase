@@ -18,14 +18,6 @@
         <project.version>3.6.0.2</project.version>
     </properties>
 
-    <distributionManagement>
-        <repository>
-            <id>archiva.webstage</id>
-            <name>jStage Release Repository</name>
-            <url>https://maven.isys-software.de/archiva/repository/webstage/</url>
-        </repository>
-    </distributionManagement>
-
     <dependencies>
         <dependency>
             <groupId>commons-cli</groupId>
